@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic,900">
+  <link rel="stylesheet" href="https://bunto.github.io/css/screen.css">
+  <link rel="icon" type="image/x-icon" href="https://bunto.github.io/favicon.ico">
+<title>Join a <%= org_id %> Affinity Team</title>
+</head>
+<body class="wrap">
+  <header role="banner">
+  <nav class="mobile-nav show-on-mobiles">
+      <ul>
+          <li>
+            <a href="/">Teams</a>
+          </li>
+          <li>
+            <a href="https://bunto.github.io/docs/home/">
+                Bunto Doc<span class="show-on-mobiles">s</span><span class="hide-on-mobiles">umentation</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://bunto.github.io/help/"><span class="hide-on-mobiles">Getting </span>Help</a>
+          </li>
+          <li>
+            <a href="https://github.com/bunto/bunto"><span class="hide-on-mobiles">View on </span>GitHub</a>
+          </li>
+        </ul>
+
+  </nav>
+  <div class="grid">
+    <div class="unit one-third center-on-mobiles">
+      <h1>
+        <a href="https://bunto.github.io">
+          <span class="sr-only">Bunto</span>
+          <img src="https://bunto.github.io/img/logo-2x.png" width="249" height="115" alt="Bunto Logo">
+        </a>
+      </h1>
+    </div>
+    <nav class="main-nav unit two-thirds hide-on-mobiles">
+      <ul>
+          <li>
+            <a href="/">Teams</a>
+          </li>
+          <li>
+            <a href="https://bunto.github.io/docs/home/">
+                Bunto Doc<span class="show-on-mobiles">s</span><span class="hide-on-mobiles">umentation</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://bunto.github.io/help/">Getting Help</a>
+          </li>
+          <li>
+            <a href="https://github.com/bunto/bunto"><span class="hide-on-mobiles">View on </span>GitHub</a>
+          </li>
+        </ul>
+    </nav>
+  </div>
+</header>
+  <section class="intro">
+  <div class="grid">
+    <div class="unit whole center-on-mobiles">
+      <p class="first">Join a <%= org_id %> affinity team.</p>
+    </div>
+    <div class="unit whole">
+      What is this? Read @benbalter's blog post on the Bunto blog,
+      <a href="https://bunto.github.io/news/2016/03/10/making-it-easier-to-contribute-to-bunto/">"Making it easier to contribute to Bunto"</a>.
+    </div>
+  </div>
+</section>
+<section>
+    <%= yield %>
+</section>
+  <footer role="contentinfo">
+  <div class="grid">
+    <div class="unit two-thirds center-on-mobiles">
+      <p>The contents of this website are <br />&copy;&nbsp;2016-present under the terms of the <a href="https://github.com/bunto/teams/blob/master/LICENSE">MIT&nbsp;License</a>.</p>
+    </div>
+    <div class="unit one-third align-right center-on-mobiles">
+      <p></p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
